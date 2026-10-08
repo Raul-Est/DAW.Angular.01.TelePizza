@@ -674,7 +674,9 @@
 				containerClass: 'ui-to-top mdi mdi-arrow-up'
 			});
 		}
-
+.rd-navbar {
+    display: block;
+}
 		// RD Navbar
 		if (plugins.rdNavbar.length) {
 			var aliaces, i, j, len, value, values, responsiveNavbar;

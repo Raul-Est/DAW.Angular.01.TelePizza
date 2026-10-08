@@ -1,0 +1,9 @@
+
+/* Como el css original tiene un display none vamos temporalmente a poner esto
+.rd-navbar {
+    display: block;
+} */
+/* Quitamo el Apaño porque ya hemos cargado el css */
+.rd-navbar {
+    display: block;
+}
