@@ -1,3 +1,4 @@
+import { Atmosphere } from './components/atmosphere/atmosphere';
 import { Component } from '@angular/core';
 import { Header } from './components/header/header';
 // añadimos segundo componente
@@ -13,10 +14,10 @@ import { Menu } from './components/menu/menu';
 //   styleUrl: './app.css'
 // })
 
-// primero añadi slider al array, y luego añadí menu
+// primero añadi slider al array, y luego añadí menu, después atmosphere
 @Component({
   selector: 'app-root',
-  imports: [Header, Slider,Menu],
+  imports: [Header, Slider,Menu,Atmosphere],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
