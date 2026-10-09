@@ -1,3 +1,4 @@
+import { Pizzas } from './components/pizzas/pizzas';
 import { Atmosphere } from './components/atmosphere/atmosphere';
 import { Component } from '@angular/core';
 import { Header } from './components/header/header';
@@ -14,10 +15,10 @@ import { Menu } from './components/menu/menu';
 //   styleUrl: './app.css'
 // })
 
-// primero añadi slider al array, y luego añadí menu, después atmosphere
+// primero añadi slider al array, y luego añadí menu, después atmosphere, pizzas
 @Component({
   selector: 'app-root',
-  imports: [Header, Slider,Menu,Atmosphere],
+  imports: [Header, Slider,Menu,Atmosphere,Pizzas],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
